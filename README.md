@@ -1,10 +1,7 @@
 # michaelstaehling.github.io
 # michaelstaehling.github.io
 
-+---
-+permalink: index.html
-+---
-+
+
 +# This is a Heading
 +
 +* this is a bulleted list
