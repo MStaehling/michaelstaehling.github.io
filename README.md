@@ -1,6 +1,7 @@
 # michaelstaehling.github.io
 # michaelstaehling.github.io
 
+
 +---
 +permalink: index.html
 +---
@@ -11,3 +12,4 @@
 +* it has items on it
 +
 +[My Growth and Fixed Minset Essay](growth-vs-fixed-mindset.md)
+
