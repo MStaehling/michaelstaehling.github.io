@@ -22,6 +22,27 @@ valueIsNaN(NaN);        // true
 valueIsNaN(Number.NaN); // true
 Infinity: property of the global object, i.e. it is a variable in global scope. ex. Number.Positive_Infinity- may be used to determine an error that shows a finite # in case of success Number.Negative_Infinity- same as positive but with the negative
 
-Assignment operator: Assigns value to left operand based on right operand. ex. (x = y) = (x=y) (x+=y) = (x= x+y).....addition assignment (x=y) = (x= xy).....multiplication assignment
+Assignment operator: Assigns value to left operand based on right operand. ex. (x = y) = (x=y) (x+=y) = (x= x+y).....addition assignment, (x=y) = (x= xy).....multiplication assignment
 
-Remainder: Gives the remaining ammount after dividing var1 by var2. ex. var1 % var2 12 % 5 = 2 (5 goes into 12 2 times (2*5 =10 so 12-10=2) and leaving 2 left over) 24 % 4 = 0 (4 goes into 24 6 times evenly leaving no remainder so the answer is 0) Explain litral types: Boolean, numbers, null, string explain built in constants: undifined, NaN, infinity
+Remainder: Gives the remaining ammount after dividing var1 by var2. ex. var1 % var2 12 % 5 = 2 (5 goes into 12 2 times (2*5 =10 so 12-10=2) and leaving 2 left over) 24 % 4 = 0 (4 goes into 24 6 times evenly leaving no remainder so the answer is 0) 
+
+Increment (++): adds a to the operand by one (in increments)
+  (++x): will add to the operand by x instead of 1
+  
+Decrement (--): subtracts from the operand by one
+  (--x): will subtract from the operand by x instead of 1
+  
+Unary negation: takes a # and puts a negative in front of it
+  ex. x = 3.....y = -x, x = -3
+  
+Unary plus: attempts to convert the operand to a #.
+  ex. +3     // 3
+  +"3"   // 3
+  +true  // 1
+  +false // 0
+  +null  // 0
+  
+Typeof: returns a string indicating the type of unevaluated operand
+
+
+Explain litral types: Boolean, numbers, null, string explain built in constants: undifined, NaN, infinity
