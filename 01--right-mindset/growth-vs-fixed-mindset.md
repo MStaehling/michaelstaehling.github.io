@@ -1,10 +1,10 @@
-1.General Info
-2.Fixed v growth mindset
+* General Info
+* Fixed v growth mindset
   a.Fixed Mindset
   b.Growth Mindset
-3.Personal Mindset
-4.Application of Mindset in Class
-5.Conclusion
+* Personal Mindset
+* Application of Mindset in Class
+* Conclusion
 
 All humans are essentially born at the same learning level. We all have to learn how walk, talk, read, do math, and many other things over the years. We're born to learn. Over time intelligence can change. The brain is like a muscle. The more you go to the gym to work out the more your muscles will grow. If you ignore the workout routine, your muscles will decrease size. The brain is the same. The more you try to learn and grow in knowledge, the stronger your brain will become. If you choose not to constantly learn new things then your brain will deteriorate.
 
