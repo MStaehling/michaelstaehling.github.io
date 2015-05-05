@@ -1,7 +1,7 @@
 * General Info
 * Fixed v growth mindset
-  a.Fixed Mindset
-  b.Growth Mindset
+  * Fixed Mindset
+  * Growth Mindset
 * Personal Mindset
 * Application of Mindset in Class
 * Conclusion
