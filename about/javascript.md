@@ -90,4 +90,8 @@ Function: Functions are a form of [control flow](http://en.wikipedia.org/wiki/Co
   function x (/* parameters go here */) {
     //function body
     }
-Explain litral types: Boolean, numbers, null, string explain built in constants: undifined, NaN, infinity
+
+* array.slice: Returns a shallow portion of an array into a ner array.
+*   ex. array.slice(begin,end)
+*   begin: zero based index, if begin is omitted, slice begins at 0; as a negative it it offsets the end of an array, so (-2) will extract the last to things in array.
+*   end: zero based index that tells where the slice ends, it goes up to (not including the ending point)
