@@ -20,6 +20,7 @@ function valueIsNaN(v) { return v !== v; }
 valueIsNaN(1);          // false
 valueIsNaN(NaN);        // true
 valueIsNaN(Number.NaN); // true
+
 Infinity: property of the global object, i.e. it is a variable in global scope. ex. Number.Positive_Infinity- may be used to determine an error that shows a finite # in case of success Number.Negative_Infinity- same as positive but with the negative
 
 Assignment operator: Assigns value to left operand based on right operand. ex. (x = y) = (x=y) (x+=y) = (x= x+y).....addition assignment, (x=y) = (x= xy).....multiplication assignment
@@ -44,5 +45,49 @@ Unary plus: attempts to convert the operand to a #.
   
 Typeof: returns a string indicating the type of unevaluated operand
 
+Variable statement: used to declare a variable, normally giving it some sort of value.
+  ex. var x = 3
+  
+Objects literals: list of zero or more pairs of property names and associated values of an object, enclosed in curly braces. You can think of object literals kind of like a phone book. Keeping various information for 1 object.
+  ex. var Sales = "Toyota";
 
+function CarTypes(name) {
+  if (name == "Honda") {
+    return name;
+  } else {
+    return "Sorry, we don't sell " + name + ".";
+  }
+}
+
+var car = { myCar: "Saturn", getCar: CarTypes("Honda"), special: Sales };
+
+console.log(car.myCar);   // Saturn
+console.log(car.getCar);  // Honda
+console.log(car.special); // Toyota
+
+Addition: gives the sum of 2 or more numbers.
+  ex. var x = 5
+      var y = 3
+      console.log (x+y) // yeilds 8
+  
+Subtraction: takes a number and reduces it by the amount of a 2nd number.
+  ex. var x = 5
+      var y = 1
+      console.log(x-y) //yeilds 4
+      
+Division: Takes a number and divides it by the second number
+  ex. var x=9
+      var y=3
+      console.log(x/y) // yeilds 3
+      
+Multiplication: multiply 2 or more numbers together.
+  ex. var x=5
+      var y=3
+      console.log(x*y) //yeilds 15
+
+Function: Functions are a form of [control flow](http://en.wikipedia.org/wiki/Control_flow) used in computer programs. It's a snipet of code that's that can be called upon later.
+  ex.
+  function x (/* parameters go here */) {
+    //function body
+    }
 Explain litral types: Boolean, numbers, null, string explain built in constants: undifined, NaN, infinity
