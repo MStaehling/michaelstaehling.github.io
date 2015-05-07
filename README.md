@@ -1,6 +1,3 @@
-# michaelstaehling.github.io
-
-
 ---
 permalink: index.html
 ---
