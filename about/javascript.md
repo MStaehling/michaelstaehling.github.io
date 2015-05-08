@@ -125,7 +125,7 @@ Literals are values in Javascript (JS). They represent a fixed value. Examples o
     var myVar4 = a.join('');    // assigns 'WindRainFire' to myVar4
 ```
 
-**Range ()**: Returns a newly created Range object whose start and end is the global Document object.
+**[Range()](https://developer.mozilla.org/en-US/docs/Web/API/Range/Range)**: Returns a newly created Range object whose start and end is the global Document object.
   * ex
 ```
     range = new Range();
