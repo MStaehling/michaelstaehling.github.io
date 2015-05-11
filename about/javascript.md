@@ -210,7 +210,7 @@ This example displays:
 
 **[Else statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)**: used when there's multiple if statements
 
- *ex.
+ * ex.
 ```
 if (x > 5) {
 
@@ -223,7 +223,7 @@ if (x > 5) {
 
 **[Switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)**: A switch evaluates an expression, it then matches the expresion with a case value and executes the given statement.
 
- *ex.
+ * ex.
 ```
 switch (expression) {
   case value1:
@@ -243,7 +243,7 @@ switch (expression) {
 ```
 
 **[Block staetment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block) {}**: Groups 0 or more statements together.
- *ex.
+ * ex.
  ```
  {
   statement_1;
@@ -259,7 +259,7 @@ console.log(x); // logs 2
 ```
 
 **[For statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)**: Or called a for loop, reates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement or a set of statements executed in the loop.
- *ex.
+  * ex.
 ```
 for ([initialization]; [condition]; [final-expression])
    statement
@@ -270,7 +270,7 @@ for (var i = 0; i < 9; i++) {
 }
 ```
 **[While statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)**: creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
- *ex.
+  * ex.
 ```
 var n = 0;
 var x = 0;
@@ -281,7 +281,7 @@ while (n < 3) {
 }
 ```
 **[Do....While statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)**: A while loop that will at least produce 1 statement.
- *ex.
+  * ex.
 ```
 var i = 0;
 do {
@@ -291,7 +291,7 @@ do {
 ```
 
 **[Try...Catch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)**: marks a block of statements to try, and specifies a response, should an exception be thrown.
- *ex.
+  * ex.
 ```
 try {
   try {
@@ -316,7 +316,7 @@ catch (ex) {
 ```
 
 **[Throw statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)**: throws a user-defined exception. Execution of the current function will stop (the statements after throw won't be executed), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate.
- *ex.
+  * ex.
 ```
 function UserException(message) {
    this.message = message;
