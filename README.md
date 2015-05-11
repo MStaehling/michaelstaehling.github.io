@@ -2,6 +2,7 @@
 permalink: index.html
 ---
 
+![My Life!](http://media.giphy.com/media/14aUO0Mf7dWDXW/giphy.gif)
 # This is a Heading
 
 * this is a bulleted list
