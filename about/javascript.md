@@ -207,7 +207,9 @@ This example displays:
 ```
 
 **[If statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)**: executes a statement if a specified condition is met. if the condition is false, another statement can be executed.
+
 **[Else statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)**: used when there's multiple if statements
+
  *ex.
 ```
 if (x > 5) {
@@ -220,6 +222,7 @@ if (x > 5) {
 ```
 
 **[Switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)**: A switch evaluates an expression, it then matches the expresion with a case value and executes the given statement.
+
  *ex.
 ```
 switch (expression) {
