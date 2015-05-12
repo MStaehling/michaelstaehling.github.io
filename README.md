@@ -13,7 +13,7 @@ permalink: index.html
 
 
 
-![My Life!](http://media.giphy.com/media/14aUO0Mf7dWDXW/giphy.gif "Another Day")
+![My Life!](<iframe src="//giphy.com/embed/14aUO0Mf7dWDXW?html5=true" width="480" height="480" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> "Another Day")
 
 
 
