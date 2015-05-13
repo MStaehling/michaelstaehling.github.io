@@ -1,4 +1,6 @@
 What do developers do? What principles of a developer have you learned?
+* Developers develope things.
+* They are problem solvers for others by creating things that that make other peaples lives easier.
 
 
 Explain the outside-in and inside-out technique we employed for TodoCLI.
@@ -6,7 +8,10 @@ Explain the outside-in and inside-out technique we employed for TodoCLI.
 * Build inside out: when you have a goal, start building one piece at a time from inside building your way toward your way toward the end goal.
 
 Describe the technique of using User Stories to write application specifications.
-
+* Used to brainstorm ideas.
+* Think of any possible uses for the particular item that needs to be created.
+* Think about what you want to use it for.
+* If there are limitations, dwindle down your ideas to what's needed.
 
 Write something about the principle of Extreme Programming (XP) called YAGNI.
 * You Ain't Gonna Need It (YAGNI)
