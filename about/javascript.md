@@ -342,3 +342,23 @@ try {
    logMyErrors(e.message, e.name); // pass exception object to err handler
 }
 ```
+**[.textContent](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)**: 
+
+
+* ex: 
+```
+// Given the following HTML fragment:
+//   <div id="divA">This is <span>some</span> text</div>
+
+// Get the text content:
+var text = document.getElementById("divA").textContent;
+// |text| is set to "This is some text".
+
+// Set the text content:
+document.getElementById("divA").textContent = "This is some text";
+// The HTML for divA is now:
+//   <div id="divA">This is some text</div>
+```
+
+**.value**: Helpful links
+* [Stackoverflow](http://stackoverflow.com/questions/11563638/javascript-get-input-text-value)
