@@ -1,9 +1,10 @@
 What is MVC?
-Model:
 
-View:
+* Model:
 
-Controller:
+* View:
+
+* Controller:
 
 
 Principle of Encapsulation
