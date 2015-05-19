@@ -1,16 +1,24 @@
 What is MVC?
 
-* Model:
+* Model: Where functions are located. Stores data that is retrieved by the controller and displayed in the view. Whenever there is a change to the data it is updated by the controller.
 
-* View:
+* View: Display, Interface, what the user sees and reacts to. Requests information from the model that it uses to generate an output representation to the user.
 
-* Controller:
+* Controller: Connects the view and model. tells the model and view what to do after recieving input.
 
 
 Principle of Encapsulation
 
+* Packing of data and functions into a single component.
+* A language mechanism for restricting access to some of the object's components.
+* A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data.
+
+
 
 What is scoping in Javascript?
+
+* Global: a var that is set outside any function that will apply to every bit of code below it that calls it.
+* Local: a var that is used within a function that can only be used within the given function.
 
 
 What to expect with job placement:
