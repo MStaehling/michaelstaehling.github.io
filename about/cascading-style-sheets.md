@@ -91,6 +91,13 @@
 
 **Background-color**: sets the color of the background
 
+**Background-image**: Sets an image as a background
+
+* ex.
+```
+background-image: url(location of img);
+```
+
 **Text-align**: tells an element how to align the text
 
 * Center: centers the text
@@ -104,7 +111,7 @@
 
 * ex. 
 ```
-{
+*{
 property:value
 }
 ```
