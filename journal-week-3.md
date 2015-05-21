@@ -1,6 +1,8 @@
 Went to FEE Conference in St. Pete.
 
-Garth Braithwaite: Open Source and Design.
+AGENCIES ARE EVIL: general feeeling from most speakers
+
+##Designers Can Open Source - Garth Braithwaite
 
 * '#'favfoss
 * Open source can change/save lives
@@ -40,4 +42,18 @@ Garth Braithwaite: Open Source and Design.
   * slack.opendesign.foundation
 
 
-Becominga YOU-shaped person
+##Becoming a YOU-shaped person - Jonathan Snook
+
+* They say there are 10 types of people
+  * Type A
+  * T shape people
+   * someone who is deep in a skill but has a broad level of empathy
+  * U shape person
+   * Use skill to gain empathy....
+* Changed everytime he became known for something
+* Empathy through experience
+* "Don't grow up to be a specialist" Johnathan Rosenberg, SVP of products at Google
+* Lots of opportunity to work on your own projects
+
+
+##Style Guides: For Clients, for Products, and For Yourself - Sophie Shepherd
