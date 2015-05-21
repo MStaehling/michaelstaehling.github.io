@@ -223,6 +223,15 @@ AGENCIES ARE EVIL: general feeeling from most speakers
 * Touch events vs hover
 
 
-##Masters of the Universe - James White
+##Masters of the Universe - James White @Signalnoise
 
-* 
+* My little universe
+* Signalnoise
+* Stories
+* Modern movements
+* Lessons
+ * Never overlook a silly idea
+ * Love what you love
+ * Know your worth
+ * Be careful how much you bite off
+ * Strike while the iron is hot
