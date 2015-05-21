@@ -162,4 +162,34 @@ AGENCIES ARE EVIL: general feeeling from most speakers
  * Currently higher in a big way
 
 
-##
+##How Monsters And Fart Jokes Made Me A Better Designer - Paul Armstrong
+
+* Communicate your feelings
+* We all have monsters that need to be defeated
+* Farts are hilarious
+ * helps make something scary less scary
+* Show & tell
+ * The stroop effect
+ * Be appropriate and clear about what you're trying to say/present
+* Don't rely on language to rescue you
+* LEGO great example with their directions
+ * no words
+* Don't assume everyone will understand your intent
+* Hypothesis & data
+* Without data, your assumptions and hunches are unsupportable
+ * Need to get data/feedback about your project
+ * Something that may be obvious to you may not be so obvious to others
+* Knowledge & respect
+ * Not everyone will love what you do
+ * But sometimes they will
+
+
+
+##Responsible Data Visualization - Amanda Cheung
+
+* 
+
+
+##Masters of the Universe - James White
+
+* 
