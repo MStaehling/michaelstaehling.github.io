@@ -1,5 +1,7 @@
 Went to FEE Conference in St. Pete.
 
+#DAY 1
+
 AGENCIES ARE EVIL: general feeeling from most speakers
 
 ##Designers Can Open Source - Garth Braithwaite
@@ -57,3 +59,54 @@ AGENCIES ARE EVIL: general feeeling from most speakers
 
 
 ##Style Guides: For Clients, for Products, and For Yourself - Sophie Shepherd
+
+* Style Guide
+ * The brand of the web
+ * Directions for use
+ * Has examples
+* Pattern library
+ * All the style guide
+ * Entire UI
+* Where styles guides fit into process
+ * Design and developement-pattern library-style guides
+ * Design and developement-style guides-pattern library
+* Mock-ups
+ * Choose 2-3 pages to mess with
+ * Look for patterns in the mock-ups
+* Use sketch to design mock-ups
+* Assess & code some patterns
+* Literal sketch
+* Design in browser
+* Photoshop
+* Reverse patterns
+* Then should have a library of patterns to choose from
+* Clean code
+* Modular QA
+ * Browser/Device testing
+ * Performance testing
+ * Global changes
+* Speed
+ * "Can you just change this color?"
+  * Just change at one place
+ * Make things once
+* Communication
+ * Useful and key when your team is spread out
+ * Send people on team a link
+ * Single point of reference
+  * Pattern library always up to date
+* More than just patterns
+ * Markup
+ * documentation
+* The pattern library is the process
+ * Design
+ * Front end dev
+ * Layouts
+ * Documentation
+ * App
+  * Production site
+  * Application
+  * Back end dev
+* githun.com/ushahidi/platform-pattern-library
+
+
+
