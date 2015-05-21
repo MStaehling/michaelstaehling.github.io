@@ -187,7 +187,40 @@ AGENCIES ARE EVIL: general feeeling from most speakers
 
 ##Responsible Data Visualization - Amanda Cheung
 
-* 
+* Creating better user experiences
+* Design and developement work together to create better solutions
+* Data visualization
+ * creation = encoding
+ * usage = decoding
+* Start with a question
+* Ben Fry's 7 steps of visualization data
+ * represent
+ * refine
+ * interact
+* What does it mean to be responsible?
+* Form
+ * Integrity
+ * Efficiency
+ * Performance
+ * Semantics
+ * Accessibility
+ * Scalability: how flexible a graph is
+* Tools
+ * Highcharts (graph type)
+* Truncated axes
+* Accurate bubble sizes
+* Readability: Helps users read a graph/chart better
+* Legend alternatives
+ * inline labels
+* Order: helps with navigating charts quicker
+ * Alphabetically
+ * By magnitude
+ * Sequentially
+* Load time for a web page (performance issue)
+* Keyboard shortcuts: helps people with disabilities
+* Sharing
+* Responsiveness
+* Touch events vs hover
 
 
 ##Masters of the Universe - James White
