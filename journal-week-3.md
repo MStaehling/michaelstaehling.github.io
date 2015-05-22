@@ -394,10 +394,25 @@ AGENCIES ARE EVIL: general feeeling from most speakers
 
 
 
-##The modern web's <img> problem - Erik Runyon
+##The modern web's <img> problem - Erik Runyon @erunyon
 
-*
-
+* Images take 73% page weight for mobil
+* Images take 76& page weight for desktop
+* Take into account percieved load time
+ * A page loads but there's a flash portion of the page still loading that gives the perception that it's still loading
+* Lazy load all images not in the main feature
+* Responsive images
+* responsiveimages.org (responsive images community group)
+* srcset
+* syntax built on img tag
+* srcset "x"
+* srcset sizes/width
+ * pass in actually width of imgages and sizes (vw=viewport width)
+* picture: kind of a wrapper around image
+* Picturefill
+* One size doesn't fit all
+* Lazy load images when you can
+* Strive for an outstanding experience 
 
 
 ##SVG is For Everybody - Chris Coyier
