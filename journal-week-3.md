@@ -415,6 +415,39 @@ AGENCIES ARE EVIL: general feeeling from most speakers
 * Strive for an outstanding experience 
 
 
-##SVG is For Everybody - Chris Coyier
+##SVG is For Everybody - Chris Coyier 
 
-*
+* CSS-TRICKS.com
+* <scg>: language for graphics
+* Designed only to be used on the web
+* Better than HTML for drawing things
+* Photoshop has vector tools for graphic design
+* Sketch is better is better
+* inkscape
+* Use SVG in
+ * SVG as <img> in HTML (content)
+ * SVG in CSS (in background-image)
+ * Inline SVG (ex. add to cart buttons)
+* Why use SVG?
+ * Resolution independent
+ * Use as a system
+ * Design possibilities
+* Screen size & resolution
+* SVG born in 1999
+* Why send pixel data when you can send geometry?
+* SVG is pretty efficient
+* G-zip used to compress aa SVG file
+* SVG let's the computer do the work of drawing things instead of us
+* Grunticon (used incase you need an else statement....generally when IE is going to be used)
+* What to love about a SVG icon system
+ * Vector
+ * Easy multi-color
+ * Animate!
+ * Script away
+ * Better accessibility
+ * Better semantics
+ * Ease of use
+* Animation
+ * Animate with CSS
+  * Can do anything you could do with CSS in SVG
+ * Animate with JS
