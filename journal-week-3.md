@@ -295,7 +295,7 @@ AGENCIES ARE EVIL: general feeeling from most speakers
 
 
 
-##Designing Together Apart - Jared Ponchot
+##Designing Together Apart - Jared Ponchot @jponchot
 
 * The bare essentials
 * Creative work essentials
@@ -329,7 +329,29 @@ AGENCIES ARE EVIL: general feeeling from most speakers
 
 ##How Designers Fail - Wren Lanier
 
-*
+* Great UX requires more than deliverables
+* We fail to take initiative
+* Yur are responsible for your design process
+* Great design is a journey not a destination
+* Don't wait for an invitaton to do the work you want
+* Fail by using a crappy process
+* Minimum Viable Kickoff Meeting
+ * Briefly describe what this feature will do
+ * Why are we building this?
+ * What do we want to learn from this?
+ * 
+* Look for opportunities to improve everything
+* We fail to include learning in every project
+* Senior designers coninuing with the design after solution is sent
+* Junior designers rarely look at their design after the solution is sent out
+* You want to learn from everything you ship
+* Be prepared for complaints and brutal feedback
+* Reduce your risk of failure by focusing on learning 
+* We fail to share UX with others
+* Make your entire team part of the UX process
+* Share your work early and often
+* Giving up control can be very difficult
+* What will you do to be a better designer?
 
 
 
