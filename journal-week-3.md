@@ -297,7 +297,33 @@ AGENCIES ARE EVIL: general feeeling from most speakers
 
 ##Designing Together Apart - Jared Ponchot
 
-*
+* The bare essentials
+* Creative work essentials
+ * Insight
+ * Energy
+ * Focus
+* The eureka myth
+* Research
+* Space
+* Helpful constraints
+* Some time given to research is better than none
+* Fascination: key to insights
+* Curiosity
+* No reward
+ * Monkey exeriment: rewarded monkeys for solving a puzzle, those that were rewarded showed less interest and success than the monkeys that weren't rewarded.
+* Flat communication
+* Be intentional
+* 5:15: should only takes 5 min to ask and only 15 min to answer
+* Should care about space
+* You-shaped spaces
+* The collaboration myth
+ * Awesome tool but not always the ideal tool
+* Focus
+* Critique
+ * Is for insights
+* Build trust
+ * People tend to trust when they know they are loved
+* Design is for lovers
 
 
 
