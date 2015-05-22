@@ -355,9 +355,42 @@ AGENCIES ARE EVIL: general feeeling from most speakers
 
 
 
-##Think Like A Motion Designer - Val Head
+##Think Like A Motion Designer - Val Head @vlh
 
-*
+* Knowing how to use animation well can make us better designers
+* Great UI animation has purpose and style
+* How it looks
+* Our goal is relatable motion
+* Want to create relatable motion
+* Timing
+ * appearing to obey the laws of physics
+ * Extablishes mood, emotion, and reaction
+* Timing function
+ * ease
+ * linear
+ * ease-in
+ * ease-out
+ * ease-in-out
+ * cubic-bezier(0.42, 0, 0.58, 1)
+  * (x1, y1, x2, y2)
+* easings.net
+* cubic-bezier.com
+* Everything is better with cubic beziers!
+* Follow through
+ * Not everything comes to a stop at once
+* Add variable for easing to help clarify the differencs between them
+* Secondary action
+ * Supplemental action, reinforces and adds dimension
+ * Usually will want to make the animation faster
+* How it behaves
+* Research says we have 0.1 to 1s to complete a UI animation
+* 0.2 to 0.5s is a good range for UI animations
+* Ease-outs feel mor "responsive"
+* Ease-out starts fast and ends slow
+* Ease-in starts slow and ends fast
+* More complex easing needs more time to be readable
+* Prototype your ideas
+* Be inspired
 
 
 
