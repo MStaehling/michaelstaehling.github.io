@@ -1,6 +1,6 @@
 Went to FEE Conference in St. Pete.
 
-#DAY 1
+#DAY 1 5/21/15
 
 AGENCIES ARE EVIL: general feeeling from most speakers
 
@@ -235,3 +235,90 @@ AGENCIES ARE EVIL: general feeeling from most speakers
  * Know your worth
  * Be careful how much you bite off
  * Strike while the iron is hot
+
+
+#DAY 2 5/22/15
+
+
+##The Path to Performance - Katie Kovalcin
+
+* Need our websties to perform well, no matter how beautiful it may look
+* Think about how fast a site may load
+* Change begins with you 
+* What hurdles do you face?
+* Often priorities often take precedent
+* Clients
+ * Discussed in Sales
+ * Sell it hard
+ * whatdoesmysitecost.com
+ * What does your client car about?
+* Leadership
+ * Politics play a large role in what gets done
+ * How easy is it to talk to leadership
+ * Stae you case
+  * Lunch'n learns
+  * It's a reusable process
+  * I'll own it for a trial run!
+ * Resource isn't budgeted for us to give code the care it needs
+ * PM Education
+  * Undeerstand the importance
+  * Advocate with clients
+  * Help maintain performance
+* The heaviness of Design
+ * Perfoemance is design's best friend, not it's enemy
+ * WEb is fairly fragile
+ * 5mb costs some users 20% of their daily income
+ * Design reviews
+  * With cient
+  * With developers
+* It's easy to rally everyone behind a cause. Follow-through is a little harder
+* determine perfoemance budget before design
+* Establishing
+ * Important metrics
+  * Page weight
+    * 400kb performance budget, allocate the budget accordingly
+  * Start render(s)
+  * Fully loaded(s)
+ * Work with the team
+ * Define for them
+ * Curveballs
+  * Optimize existing feature
+  * Remove existing feature
+  * Don't add
+ * Can't spend what you don't have
+ * Using with designers
+ * Designers do their best work with constraints
+ * Collaborate
+  * Work together to determine budget
+ * Fonts
+  * Think about how much the font kit and if their's a similiar lighter one
+
+
+
+##Designing Together Apart - Jared Ponchot
+
+*
+
+
+
+##How Designers Fail - Wren Lanier
+
+*
+
+
+
+##Think Like A Motion Designer - Val Head
+
+*
+
+
+
+##The modern web's <img> problem - Erik Runyon
+
+*
+
+
+
+##SVG is For Everybody - Chris Coyier
+
+*
