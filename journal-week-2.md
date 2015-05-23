@@ -50,3 +50,4 @@ What to expect with job placement:
   * Meetups are about 2.5 hrs long
 
 * Create a blog
+* Should start working on networking now instead of waiting till after graduation
