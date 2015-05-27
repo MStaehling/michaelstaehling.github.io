@@ -36,6 +36,10 @@ List of [named character reference] (http://www.w3.org/html/wg/drafts/html/maste
 * **[header] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)**: a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on.
 * **[p] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)**: A paragragh of text.
 * **[nav] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)**: Contains links to another part of the page.
+* **[dl] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)**: Encloses a list of pairs of terms and descriptions.
+* **[ol] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)**: Used to declare an ordered list of elements.
+* **[ul] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)**: Used to declare an unordered list of elements.
+* **[li] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)**: Child of ol, ul, or menu. Used to list the items.
 
 
 
