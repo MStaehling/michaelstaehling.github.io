@@ -1,6 +1,10 @@
 **[HTML] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element)**
 
-html documents are written in plain text where the elements are surrounded by tags ('<' '>') ex. <p>. The start of a tag normally contains an attribute like the 'p' in the previous example. Sometimes there will be a value that follows the attribute like 
+html documents are written in plain text where the elements are surrounded by tags ('<' '>') ex. 
+```html
+<p>
+```
+The start of a tag normally contains an attribute like the 'p' in the previous example. Sometimes there will be a value that follows the attribute like 
 ```html
 <p class="value">
 ```
