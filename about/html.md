@@ -23,9 +23,9 @@ List of [named character reference] (http://www.w3.org/html/wg/drafts/html/maste
 * **[class] (https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)**: allows CSS and Javascript to select and access specific elements
 * **[style] (https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)**: Used in html to style a page instead of a CSS file. Syntax is the same as CSS just surround all the styles with <style> </style>.
 * **[title] (https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title)**: contains a text representing advisory information related to the element it belongs to.
-* **<body> (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)**: represents the content of an HTML document. There can be only one <body> element in a document.
-* **[<html>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)**: epresents the root of an HTML document. All other elements must be descendants of this element.
-* **[<head>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)**: provides general information (metadata) about the document, including its title and links to or definitions of scripts and style sheets.
+* **[body] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)**: represents the content of an HTML document. There can be only one <body> element in a document.
+* **[html] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)**: epresents the root of an HTML document. All other elements must be descendants of this element.
+* **[head] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)**: provides general information (metadata) about the document, including its title and links to or definitions of scripts and style sheets.
 * **[!DOCTYPE] (https://developer.mozilla.org/en-US/docs/Glossary/Doctype)**: informs the browser which version of HTML (or XML) you used to write the document. Doctype is a declaration, not a tag.
 
 
