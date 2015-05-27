@@ -31,22 +31,21 @@ List of [named character reference] (http://www.w3.org/html/wg/drafts/html/maste
 
 **[Block-level elements] (https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)**: occupies the entire space of its parent element (container), thereby creating a "block."
 
-* **[<div>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)**: generic container for flow content, generally used to seperate sections of the HTML document into different divisions.
-* **[<h1>, <h2>, <h3>, <h4>, <h5>, <h6>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)**: Used for headings on a page. h1 is the largest font and gets smaller with each heading where h6 is the smallest.
-* **[<header>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)**: a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on.
-* **[<p>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)**: A paragragh of text.
-* **[<nav>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)**: Contains links to another part of the page.
+* **[div] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)**: generic container for flow content, generally used to seperate sections of the HTML document into different divisions.
+* **[h1, h2, h3, h4, h5, h6] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)**: Used for headings on a page. h1 is the largest font and gets smaller with each heading where h6 is the smallest.
+* **[header] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)**: a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on.
+* **[p] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)**: A paragragh of text.
+* **[nav] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)**: Contains links to another part of the page.
 
 
 
 **[Inline elements] (https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente)**: occupies only the space bounded by the tags that define the inline element.
 
-* **[<script>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)**: used to embed or reference an executable script within an HTML or XHTML document.
-* **[<img>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img)**: Tag that contains an image. This is a self closing tag
-* 
+* **[script] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)**: used to embed or reference an executable script within an HTML or XHTML document.
+* **[img] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img)**: Tag that contains an image. This is a self closing tag
 
 
 **Self Closing Tags**: Tags that close themselves. There's nothing that would go inbetween the tags so there's no need for a closing tag (</....>). All the information is within the the tag itself.
 
-* **[<link>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)**: a tag the links the html to another document, usually a CSS folder
-* **[<meta>] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)**: represents any metadata information that cannot be represented by one of the other HTML meta-related elements (<base>, <link>, <script>, <style> or <title>).
+* **[link] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)**: a tag the links the html to another document, usually a CSS folder
+* **[meta] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)**: represents any metadata information that cannot be represented by one of the other HTML meta-related elements (<base>, <link>, <script>, <style> or <title>).
