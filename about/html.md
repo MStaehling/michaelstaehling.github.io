@@ -40,6 +40,10 @@ List of [named character reference] (http://www.w3.org/html/wg/drafts/html/maste
 * **[ol] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)**: Used to declare an ordered list of elements.
 * **[ul] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)**: Used to declare an unordered list of elements.
 * **[li] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)**: Child of ol, ul, or menu. Used to list the items.
+* **[form] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)**: Part of a document that allows a user to interact with to submit information to a web server.
+* **[fieldset] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset)**: Groups several controls and labels in a web form. Has an optional element of '<legend>'. 
+* **[legend] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend)**: A caption for the content of its parent '<fieldset>'.
+
 
 
 
@@ -47,6 +51,12 @@ List of [named character reference] (http://www.w3.org/html/wg/drafts/html/maste
 
 * **[script] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)**: used to embed or reference an executable script within an HTML or XHTML document.
 * **[img] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img)**: Tag that contains an image. This is a self closing tag
+* **[input] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)**: An interactive control for web forms that allow user to input data.
+* **[button] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)**: A clickable button.
+* **[label] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)**: In the user interface it is a caption for an item. Can be associated with a control.
+* **[textarea] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)**: Multi-line plain-text editing control.
+* **[select] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)**: Control taht presents a menu options. The options are represented by '<option>' which can be grouped by '<optgroup>'.
+* **[option] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)**: Used to create a control representing an item.
 
 
 **Self Closing Tags**: Tags that close themselves. There's nothing that would go inbetween the tags so there's no need for a closing tag (</....>). All the information is within the the tag itself.
