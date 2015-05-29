@@ -43,6 +43,16 @@ List of [named character reference] (http://www.w3.org/html/wg/drafts/html/maste
 * **[form] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)**: Part of a document that allows a user to interact with to submit information to a web server.
 * **[fieldset] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset)**: Groups several controls and labels in a web form. Has an optional element of '<legend>'. 
 * **[legend] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend)**: A caption for the content of its parent '<fieldset>'.
+* **[table] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)**: Represents data that will be in 2 or dimensions.
+* **[tbody] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)**: The body of a table that holds thead, tr, td, tfoot.
+* **[thead] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead)**: defines a set of rows defining the head of the columns of the table.
+* **[tr] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr)**: A row on a table.
+* **[td] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)**: The data in a table.
+* **[th] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)**: A header in a table.
+* **[tfoot] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot)**: Footer of a table.
+* **[col] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)**: A column in a table.
+* **[colgroup] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup)**: a group of columns.
+* **[caption] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)**: The title of a table.
 
 
 
