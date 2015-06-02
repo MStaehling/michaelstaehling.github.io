@@ -60,7 +60,6 @@ List of [named character reference] (http://www.w3.org/html/wg/drafts/html/maste
 **[Inline elements] (https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente)**: occupies only the space bounded by the tags that define the inline element.
 
 * **[script] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)**: used to embed or reference an executable script within an HTML or XHTML document.
-* **[img] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img)**: Tag that contains an image. This is a self closing tag
 * **[input] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)**: An interactive control for web forms that allow user to input data.
 * **[button] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)**: A clickable button.
 * **[label] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)**: In the user interface it is a caption for an item. Can be associated with a control.
@@ -73,3 +72,4 @@ List of [named character reference] (http://www.w3.org/html/wg/drafts/html/maste
 
 * **[link] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)**: a tag the links the html to another document, usually a CSS folder
 * **[meta] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)**: represents any metadata information that cannot be represented by one of the other HTML meta-related elements (<base>, <link>, <script>, <style> or <title>).
+* **[img] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img)**: Tag that contains an image. This is a self closing tag
