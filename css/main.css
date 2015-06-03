@@ -95,7 +95,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+   body {
+     border-color: lightgrey;
+   }
+   header {
+     width: 100%;
+     padding: 4ex;
+     position: fixed;
+     background-color: #EE953C;
+   }
+   header a {
+     text-decoration: none;
+     color: black;
+     padding: 0 4ex;
+   }
 
 
 
