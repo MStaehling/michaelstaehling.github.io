@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "browser-sync start --server --files='js/**/*.js,test/spec/**/*.js' --startPath test/index.html",
-    "start": "browser-sync start --server"
+    "start": "browser-sync start --server --files='js/**/*.js, css/*.css, index.html'"
   },
   "repository": {
     "type": "git",
