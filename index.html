@@ -1,9 +1,12 @@
+---
+title: Fierce Mess
+---
 <!doctype html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>{{page.title}}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,19 +17,20 @@
     </head>
     <body>
       <header>
-        <a href="CurrentURL">HOME</a>
+        <a href="http://mstaehling.github.io">HOME</a>
        <!-- http://www.tutorialspoint.com/html/html_email_links.htm -->
-       <a href="mailto:michael.staehling@gmail.com">michael.staehling@gmail.com</a>
+       <a href="mailto:michael.staehling@gmail.com">E-MAIL</a>
        <a href="https://github.com/MStaehling">My Github</a>
      </header>
+<ul>
+    {% for post in site.posts %}
      <div class="container">
-       <p class="essay">growth-vs-fixed-mindset.md will go here</p>
-       <p class="weekly">Week 1 Journal will go here</p>
-       <p class="weekly">Week 2 Journal will go here</p>
-       <p class="tutorial">Week 3 Tutorial will go here</p>
-       <p class="weekly">Week 3 Journal will go here</p>
+         
+       <li> <a href='{{post.url}}'>{{post.title}}</a>
+       
      </div>
-
+{% endfor %}
+</ul>
 
 
     </body>
