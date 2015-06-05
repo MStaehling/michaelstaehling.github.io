@@ -95,19 +95,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-  border-color: lightgrey;
-}
-header {
+
+
+
+   body {
+     background-color: lightgrey;
+   }
+   header {
+     width: 100%;
+     padding: 4ex;
+     position: fixed;
+     background-color: #EE953C;
+     float: top;
+   }
+   header a {
+     text-decoration: none;
+     color: black;
+     padding: 0 4ex;
+   }
+.container {
+  margin: auto;
+  font-size: 500%;
   width: 100%;
-  padding: 4ex;
-  position: fixed;
-  background-color: #EE953C;
+  height: 20ex;
+  width: 15ex;
+  display: block;
+  text-align: center;
 }
-header a {
-  text-decoration: none;
-  color: black;
-  padding: 0 4ex;
+.essay {
+  background-color: red;
+}
+.weekly {
+  background-color: purple;
+}
+.tutorial {
+  background-color: pink;
 }
 
 
