@@ -83,39 +83,39 @@ X-RateLimit-Reset: 1377013266
  
 fix the issue by caching API responses and using conditional requests
 
-* ### How can I ask for more (or less) data from a request?
+* How can I ask for more (or less) data from a request?
  
 Contact Github costumer support??
 
 
-* ### How do I know that there is more data available?
+* How do I know that there is more data available?
 
 
 
 ### What are the endpoints for fetching...
 
-  ### the profile data for a user? 
+  * the profile data for a user? 
   
-  ### the organizations a user belongs to?
+  * the organizations a user belongs to?
   
-  ### the repositories a user has created?
+  * the repositories a user has created?
   
-  ### a filtered list of repositories?
+  * a filtered list of repositories?
   
-  ### a sorted list of repositories?
+  * a sorted list of repositories?
   
-  ### public events for a user?
+  * public events for a user?
   
-  ### When fetching public events for a user...
+  * When fetching public events for a user...
   
 ### How many results are returned by default?
 
-  ### What limitations exist on fetching more results?
+  * What limitations exist on fetching more results?
   
-  ### What is the basic structure of the results?
+  * What is the basic structure of the results?
   
-  ### What fields are included in each result?
+  * What fields are included in each result?
   
-  ### What are the data types for each field?
+  * What are the data types for each field?
   
-  ### What are some of the different values for the type field?
+  * What are some of the different values for the type field?
