@@ -26,7 +26,7 @@ curl https://api.github.com/?access_token=OAUTH-TOKEN
 ```
  
  * ### How do I ask the API for...
-    * ### The profile information for a specific user?
+    * The profile information for a specific user?
     
     This fetches the profile info for octocat
 
@@ -34,14 +34,14 @@ curl https://api.github.com/?access_token=OAUTH-TOKEN
     curl -i https://api.github.com/users/octocat
     ```
     
-    * ### The repository listing for a specific user?
+    * The repository listing for a specific user?
     
     This will fetch the repos of octokit
     
     ```
     GET /orgs/octokit/repos
     ```
-    * ### The recent, public activity for a specific user?
+    * The recent, public activity for a specific user?
     
     This fetches a specific repo....the octokit/octokit.rb repo
     
@@ -49,13 +49,13 @@ curl https://api.github.com/?access_token=OAUTH-TOKEN
     GET /repos/octokit/octokit.rb
     ```
     
-    * ### Is there a limit to the number of requests I can make?
+    * Is there a limit to the number of requests I can make?
       * 5k requests/hr for basic authentication or OAuth
       * 60 requests/hr for unauthenticated requests (associated with your IP address)
  
 
 
-* ### Is there a way of extending that limit?
+* Is there a way of extending that limit?
 
 You can pass your app's client ID and secret as part of the query string to increase rate limit (only to be used for server to server calls) 
 ``` 
@@ -67,7 +67,7 @@ X-RateLimit-Remaining: 4966
 X-RateLimit-Reset: 1372700873
 ```
 
-* ### What happens when I hit the limit?
+* What happens when I hit the limit?
  
 You get a 
 ```
@@ -79,7 +79,7 @@ X-RateLimit-Remaining: 0
 X-RateLimit-Reset: 1377013266
 ```
 
-* ### What if there is a lot of data returned?
+* What if there is a lot of data returned?
  
 fix the issue by caching API responses and using conditional requests
 
