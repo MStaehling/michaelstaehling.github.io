@@ -95,20 +95,40 @@ Contact Github costumer support??
 ### What are the endpoints for fetching...
 
   * the profile data for a user? 
+  ```
+  https://api.github.com/users/username
+  ```
   
   * the organizations a user belongs to?
+ ```
+  https://api.github.com/users/username/org
+  ```
   
   * the repositories a user has created?
+  ```
+  https://api.github.com/users/username/repos
+  ```
   
-  * a filtered list of repositories?
+  * a filtered list of repositories?????????
+  ```
+  https://api.github.com/users/username
+  ```
   
-  * a sorted list of repositories?
+  * a sorted list of repositories?????????
+  ```
+  https://api.github.com/users/username
+  ```
   
   * public events for a user?
+  ```
+  https://api.github.com/users/username/events/public
+  ```
   
-  * When fetching public events for a user...
+### When fetching public events for a user...
+ 
+  * How many results are returned by default?
   
-### How many results are returned by default?
+Will be paginated 30 times
 
   * What limitations exist on fetching more results?
   
