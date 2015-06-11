@@ -1,6 +1,7 @@
  * ### How does the API handle authentication?
  
- 
+ https://developer.github.com/v3/
+
  
  * ### Do I need to authenticate?
  
@@ -143,19 +144,40 @@ Will be paginated 30 times
 ### How can I use the Github API to...
 
  * get all the comments for a particular issue?
+ ```
+GET /repos/:owner/:repo/issues/:number/comments
+```
+for a single comment
+```
+GET /repos/:owner/:repo/issues/comments/:id
+```
 
  * add a comment to an issue?
+
+```
+POST /repos/:owner/:repo/issues/:number/comments
+```
 
 ### How can I use the jQuery API to...
 
 * get the HTML contents of an element?
 
+.text, .innerText, .innerHtml
+
 * create a new HTML element?
 
+.html() = ....
+
 * add an HTML element to the page?
+
+.append()  http://api.jquery.com/append/
 
 ### How can I use the Lodash API to...
 
 * replace placeholders with values from an object?
 
 * repeat code for every item of an array?
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+
+every() method will go through the the array until it comes across a falsy.
