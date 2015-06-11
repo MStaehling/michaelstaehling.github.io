@@ -176,6 +176,8 @@ POST /repos/:owner/:repo/issues/:number/comments
 
 * replace placeholders with values from an object?
 
+Use  ._pluck I think?????
+
 * repeat code for every item of an array?
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
