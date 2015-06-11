@@ -178,8 +178,12 @@ POST /repos/:owner/:repo/issues/:number/comments
 
 Use  ._pluck I think?????
 
+https://lodash.com/docs#pluck
+
 * repeat code for every item of an array?
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+
+https://lodash.com/docs#every
 
 every() method will go through the the array until it comes across a falsy.
