@@ -12,14 +12,18 @@ How do I make API requests?
   200:ok      JSON
 
 How does the API handle authentication?
- With an application key that you get during app registration
+ 
  
  * Do I need to authenticate?
  yes
 
- * What can I do with an unauthenticated request?---------------------
+ * What can I do with an unauthenticated request?
+  
+retrieve guest_id info
 
- * How can I authenticate my request?-----------------------
+ * How can I authenticate my request?
+ 
+With an application key that you get during app registration..Some will require OAuth
 
 How do I ask the API for...
 
