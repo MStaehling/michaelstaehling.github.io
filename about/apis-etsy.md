@@ -67,3 +67,27 @@ https://openapi.etsy.com/v2/listings/active?limit=50&offset=150
 https://openapi.etsy.com/v2/listings/active?limit=50&offset=200
 https://openapi.etsy.com/v2/listings/active?limit=50&offset=250
 ```
+
+What Resource in the API represents...
+ 
+ * an individual product?
+ 
+ * a group or collection of products?
+ 
+ * images associated with a product?
+
+ * sizes and colors for a product?
+
+What actions and endpoints exist for each of these Resources?
+
+What parameters do each endpoint require or accept?
+
+What fields are returned for each Resource, specifically:
+
+ * an individual product?
+
+ * a group or collection of products?
+
+What _additional_ fields can be requested for each?
+
+What is a `Taxonomy` Resource?
