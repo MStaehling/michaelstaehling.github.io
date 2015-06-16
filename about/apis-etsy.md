@@ -48,6 +48,18 @@ Is there a limit to the number of requests I can make?
 
 What if there is a _lot_ of data returned?
 
- * How can I ask for more (or less) data from a request?-------------
+ * How can I ask for more (or less) data from a request?
+  
+default is 25 items per page. Can change it to a max of 100 items per page.
 
- * How do I know that there is more data available?------------
+ * How do I know that there is more data available?
+ 
+Here's an example of sequential requests to paginate through the most recent 300 listings, 50 at a time:
+```
+https://openapi.etsy.com/v2/listings/active?limit=50&offset=0
+https://openapi.etsy.com/v2/listings/active?limit=50&offset=50
+https://openapi.etsy.com/v2/listings/active?limit=50&offset=100
+https://openapi.etsy.com/v2/listings/active?limit=50&offset=150
+https://openapi.etsy.com/v2/listings/active?limit=50&offset=200
+https://openapi.etsy.com/v2/listings/active?limit=50&offset=250
+```
