@@ -72,22 +72,42 @@ What Resource in the API represents...
  
  * an individual product?
  
+listings
+ 
  * a group or collection of products?
  
+categories
+ 
  * images associated with a product?
+ 
+listing image
 
  * sizes and colors for a product?
+ 
+https://www.etsy.com/developers/documentation/getting_started/images#section_supported_sizes
+
 
 What actions and endpoints exist for each of these Resources?
 
+
+
 What parameters do each endpoint require or accept?
+
 
 What fields are returned for each Resource, specifically:
 
+
  * an individual product?
+
+
 
  * a group or collection of products?
 
+https://www.etsy.com/developers/documentation/reference/category
+
 What _additional_ fields can be requested for each?
 
+
 What is a `Taxonomy` Resource?
+
+A new-style category for Etsy listings, replacing Category. If you set the taxonomy_id property of a Listing Etsy will automatically fill in the corresponding category_id, and vice-versa. This Taxonomy can be deeper than the three levels provided by Category. We now have two taxonomies, one for sellers and one for buyers. You must use the seller taxonomy when deciding which taxonomy_id to use for a listing. The seller taxonomy is optimized for completeness and specificity. The buyer taxonomy is optimized for how buyers search on Etsy.
