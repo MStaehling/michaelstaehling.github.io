@@ -93,11 +93,14 @@ What actions and endpoints exist for each of these Resources?
 
 What parameters do each endpoint require or accept?
 
+   fields, associations, scopes
+
 
 What fields are returned for each Resource, specifically:
 
 
  * an individual product?
+ integer
 
 
 
