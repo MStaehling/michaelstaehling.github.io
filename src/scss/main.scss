@@ -95,10 +95,52 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-@import "custom";
+// @import "custom";
 
 
 
+   body {
+     background-color: lightgrey;
+   }
+   header {
+     width: 100%;
+     padding: 4ex;
+     position: fixed;
+     background-color: #EE953C;
+     float: top;
+   }
+   header a {
+     text-decoration: none;
+     color: black;
+     padding: 0 4ex;
+   }
+.container {
+  background-color: purple;
+  padding:;
+  margin-top: 5em;
+  font-size: 500%;
+  width: 50%;
+  height: 20ex;
+  width: 15ex;
+  display: block;
+  text-align: center;
+}
+.essay {
+  background-color: red;
+}
+.weekly {
+  background-color: purple;
+}
+.tutorial {
+  background-color: pink;
+}
+.month {
+  float: right;
+}
+.month ul li a {
+  text-decoration: none;
+  color: lightblue;
+}
 
 
 
