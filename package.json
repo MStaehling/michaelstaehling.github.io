@@ -4,13 +4,12 @@
   "description": "--- permalink: index.html ---",
   "main": "index.js",
   "scripts": {
-      "start": "browser-sync start --server --directory --files='src/index.html, src/*/*.html, src/js/*.js, src/css/*.css'",
-      "sass": "node-sass src/scss/main.scss -o src/css/",
-      "postinstall": "npm run bower:install",
-      "bower:install": "bower install --save",
-      "postbower:install": "wiredep --src src/index.html"
-
-    },
+    "start": "browser-sync start --server --directory --files='src/index.html, src/*/*.html, src/js/*.js, src/css/*.css'",
+    "sass": "node-sass src/scss/main.scss -o src/css/",
+    "postinstall": "npm run bower:install",
+    "bower:install": "bower install --save",
+    "postbower:install": "wiredep --src src/index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/MStaehling/michaelstaehling.github.io.git"
@@ -24,6 +23,7 @@
   "devDependencies": {
     "bower": "^1.4.1",
     "browser-sync": "^2.7.10",
+    "gulp": "^3.9.0",
     "node-sass": "^3.2.0",
     "wiredep": "^2.2.2"
   }
