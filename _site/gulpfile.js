@@ -9,11 +9,10 @@ gulp.task('sass', function(){
   // node-sass src/scss/main.scss -o src/css/
   var sass = require('gulp-sass');
 
-  gulp.src('src/scss/main.scss')
+  return gulp.src('scss/*.scss')
   .pipe(sass())
-  .pipe(gulp.dest('src/css/'))
-  .pipe(sass({ outputStyle: 'compressed' }))
-  .pipe(gulp.dest('dist/css/'))
+  .pipe(gulp.dest('css'))
+  .pipe(browserSync.stream());
 }); //END gulp.task(sass)
 
 
@@ -21,19 +20,19 @@ var browserSync = require('browser-sync').create();
 
 gulp.task('serve', [ 'sass' ], function(){
   browserSync.init({
-    server: "./src"
+    server: "./_site"
 
   });
-  gulp.watch("src/scss/*.scss", ['sass']);
-  gulp.watch("src/*.html").on('change', browserSync.reload);
-  gulp.watch("src/js/**/*.js").on('change', browserSync.reload);
+  gulp.watch("scss/*.scss", ['sass']);
+  gulp.watch("./_site/*.html").on('change', browserSync.reload);
+  gulp.watch("js/**/*.js").on('change', browserSync.reload);
 });
 
 gulp.task('watch:sass', function(){
-  gulp.watch('src/scss/*.scss', [ 'sass' ], function(){
+  gulp.watch('scss/*.scss', [ 'sass' ], function(){
     console.log('In your Sass files...', 'Building your CSS');
   });
-  gulp.watch('src/*.html', [ 'build' ]);
+  gulp.watch('./_site/*.html', [ 'build' ]);
 })
 
 gulp.task('clean', function(done){
@@ -45,6 +44,8 @@ gulp.task('clean', function(done){
     '!dist/.gitignore'
   ], done);
 })
+
+gulp.task('default', [ 'serve' ]);
 
 gulp.task('build', [ 'clean', 'sass' ], function(){
   gulp.src(['src/*', '!src/scss'])
