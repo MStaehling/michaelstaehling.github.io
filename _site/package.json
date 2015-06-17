@@ -1,0 +1,32 @@
+{
+  "name": "michaelstaehling.github.io",
+  "version": "0.0.0",
+  "description": "--- permalink: index.html ---",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --directory --files='src/index.html, src/*/*.html, src/js/*.js, src/css/*.css'",
+    "sass": "node-sass src/scss/main.scss -o src/css/",
+    "postinstall": "npm run bower:install",
+    "bower:install": "bower install --save",
+    "postbower:install": "wiredep --src src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MStaehling/michaelstaehling.github.io.git"
+  },
+  "author": "",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/MStaehling/michaelstaehling.github.io/issues"
+  },
+  "homepage": "https://github.com/MStaehling/michaelstaehling.github.io",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "browser-sync": "^2.7.10",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.1",
+    "node-sass": "^3.2.0",
+    "wiredep": "^2.2.2"
+  }
+}
