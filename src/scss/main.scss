@@ -95,6 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+// @import "custom";
 
 
 
@@ -114,9 +115,11 @@ textarea {
      padding: 0 4ex;
    }
 .container {
-  margin: auto;
+  background-color: purple;
+  padding:;
+  margin-top: 5em;
   font-size: 500%;
-  width: 100%;
+  width: 50%;
   height: 20ex;
   width: 15ex;
   display: block;
@@ -131,7 +134,13 @@ textarea {
 .tutorial {
   background-color: pink;
 }
-
+.month {
+  float: right;
+}
+.month ul li a {
+  text-decoration: none;
+  color: lightblue;
+}
 
 
 

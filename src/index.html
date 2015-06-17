@@ -9,8 +9,9 @@ title: Fierce Mess
         <title>{{page.title}}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--bower:css-->
 
-
+        <!--endbower-->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -25,15 +26,34 @@ title: Fierce Mess
 <ul>
     {% for post in site.posts %}
      <div class="container">
-         
+
        <li> <a href='{{post.url}}'>{{post.title}}</a>
-       
+
      </div>
 {% endfor %}
 </ul>
-
+<aside class="month">
+  <h2>Select month</h2>
+  <ul>
+    <li><a href="#jan">January</a></li>
+    <li><a href="#feb">February</a></li>
+    <li><a href="#mar">March</a></li>
+    <li><a href="#apr">April</a></li>
+    <li><a href="#may">May</a></li>
+    <li><a href="#jun">June</a></li>
+    <li><a href="#jul">July</a></li>
+    <li><a href="#aug">August</a></li>
+    <li><a href="#sep">Septemper</a></li>
+    <li><a href="#oct">October</a></li>
+    <li><a href="#nov">November</a></li>
+    <li><a href="#dec">December</a></li>
+  </ul>
+</aside>
 
     </body>
+    <!--bower:js-->
+
+    <!--endbower-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
