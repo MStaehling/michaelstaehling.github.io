@@ -114,3 +114,22 @@ What _additional_ fields can be requested for each?
 What is a `Taxonomy` Resource?
 
 A new-style category for Etsy listings, replacing Category. If you set the taxonomy_id property of a Listing Etsy will automatically fill in the corresponding category_id, and vice-versa. This Taxonomy can be deeper than the three levels provided by Category. We now have two taxonomies, one for sellers and one for buyers. You must use the seller taxonomy when deciding which taxonomy_id to use for a listing. The seller taxonomy is optimized for completeness and specificity. The buyer taxonomy is optimized for how buyers search on Etsy.
+
+
+* For the product list (category) page what data is needed from...
+    * the `Listing` resource?
+    * the `ListingImage` resource?
+    * the `Variations_*` resources?
+    * the `Category` resource?
+    * the `Shop` resource?
+  * On the product detail page what data is needed from...
+    * the `Listing` resource?
+    * the `ListingImage` resource?
+    * the `Variations_*` resources?
+    * the `Category` resource?
+    * the `Shop` resource?
+  * Identified for each:
+    * API endpoint
+    * required query params
+    * additional params needed (`fields`, `includes`)
+    * sample data returned
