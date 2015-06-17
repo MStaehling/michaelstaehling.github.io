@@ -93,6 +93,7 @@ header a {
   padding: 0 4ex; }
 
 .container {
+  background-color: purple;
   margin: auto;
   font-size: 500%;
   width: 100%;
