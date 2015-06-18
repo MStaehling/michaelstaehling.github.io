@@ -117,19 +117,61 @@ A new-style category for Etsy listings, replacing Category. If you set the taxon
 
 
 * For the product list (category) page what data is needed from...
+
     * the `Listing` resource?
+    
+    `curl --get https://openapi.etsy.com/v2/listings/224082884?api_key=[your api key]`
+    
     * the `ListingImage` resource?
+    
+    `curl --get https://openapi.etsy.com/v2/listings/224082884/images?api_key=[your api key]`
+    
     * the `Variations_*` resources?
+    ....different images....
+    requires an OAuth token to get
+    `curl --get https://openapi.etsy.com/v2/listings/224082884/variations?api_key=[your api key]`
+    
     * the `Category` resource?
+    
+    `curl --get https://openapi.etsy.com/v2/listings/224082884?api_key=[your api key]`
+    
     * the `Shop` resource?
+    
+    `curl --get https://openapi.etsy.com/v2/shops/shop_id?api_key=[your api key]`
+    
   * On the product detail page what data is needed from...
     * the `Listing` resource?
+    
+
+
     * the `ListingImage` resource?
+    
+    
+    
     * the `Variations_*` resources?
+     
+    requires an OAuth token to get
+    `curl --get https://openapi.etsy.com/v2/listings/224082884/variations?api_key=[your api key]`
+
     * the `Category` resource?
+    
+    
+    
     * the `Shop` resource?
+    
+    
+    
   * Identified for each:
     * API endpoint
+     
+     
+    
     * required query params
+     
+     
+    
     * additional params needed (`fields`, `includes`)
+     
+     
+    
     * sample data returned
