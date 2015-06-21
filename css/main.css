@@ -92,6 +92,10 @@ header a {
   color: black;
   padding: 0 4ex; }
 
+ul {
+  width: 50%;
+  display: inline-block; }
+
 .container {
   background-color: purple;
   margin-top: 3ex;
@@ -111,7 +115,9 @@ header a {
 .tutorial {
   background-color: pink; }
 
-.month {
+aside.month {
+  width: 150px;
+  margin-top: 150px;
   float: right; }
 
 .month ul li a {
