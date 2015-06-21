@@ -1,28 +1,28 @@
 How do I make API requests?
-
+ 
  *  What is the base URL?
    ```
    https://openapi.etsy.com/v2
    ```
-
+ 
  * Are there any headers or query parameters required?
   It's passed using the standard api_key parameter.
-
+ 
  * What kind of response should I expect?
   200:ok      JSON
 
 How does the API handle authentication?
-
-
+ 
+ 
  * Do I need to authenticate?
  yes
 
  * What can I do with an unauthenticated request?
-
+  
 retrieve guest_id info
 
  * How can I authenticate my request?
-
+ 
 With an application key that you get during app registration..Some will require OAuth
 
 How do I ask the API for...
@@ -53,11 +53,11 @@ Is there a limit to the number of requests I can make?
 What if there is a _lot_ of data returned?
 
  * How can I ask for more (or less) data from a request?
-
+  
 default is 25 items per page. Can change it to a max of 100 items per page.
 
  * How do I know that there is more data available?
-
+ 
 Here's an example of sequential requests to paginate through the most recent 300 listings, 50 at a time:
 ```
 https://openapi.etsy.com/v2/listings/active?limit=50&offset=0
@@ -69,21 +69,21 @@ https://openapi.etsy.com/v2/listings/active?limit=50&offset=250
 ```
 
 What Resource in the API represents...
-
+ 
  * an individual product?
-
+ 
 listings
-
+ 
  * a group or collection of products?
-
+ 
 categories
-
+ 
  * images associated with a product?
-
+ 
 listing image
 
  * sizes and colors for a product?
-
+ 
 https://www.etsy.com/developers/documentation/getting_started/images#section_supported_sizes
 
 
@@ -119,59 +119,59 @@ A new-style category for Etsy listings, replacing Category. If you set the taxon
 * For the product list (category) page what data is needed from...
 
     * the `Listing` resource?
-
+    
     `curl --get https://openapi.etsy.com/v2/listings/224082884?api_key=[your api key]`
-
+    
     * the `ListingImage` resource?
-
+    
     `curl --get https://openapi.etsy.com/v2/listings/224082884/images?api_key=[your api key]`
-
+    
     * the `Variations_*` resources?
     ....different images....
     requires an OAuth token to get
     `curl --get https://openapi.etsy.com/v2/listings/224082884/variations?api_key=[your api key]`
-
+    
     * the `Category` resource?
-
+    
     `curl --get https://openapi.etsy.com/v2/listings/224082884?api_key=[your api key]`
-
+    
     * the `Shop` resource?
-
+    
     `curl --get https://openapi.etsy.com/v2/shops/shop_id?api_key=[your api key]`
-
+    
   * On the product detail page what data is needed from...
     * the `Listing` resource?
-
+    
 
 
     * the `ListingImage` resource?
-
-
-
+    
+    
+    
     * the `Variations_*` resources?
-
+     
     requires an OAuth token to get
     `curl --get https://openapi.etsy.com/v2/listings/224082884/variations?api_key=[your api key]`
 
     * the `Category` resource?
-
-
-
+    
+    
+    
     * the `Shop` resource?
-
-
-
+    
+    
+    
   * Identified for each:
     * API endpoint
-
-
-
+     
+     
+    
     * required query params
-
-
-
+     
+     
+    
     * additional params needed (`fields`, `includes`)
-
-
-
+     
+     
+    
     * sample data returned

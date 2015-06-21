@@ -85,7 +85,7 @@ header {
   padding: 4ex;
   position: fixed;
   background-color: #EE953C;
-  float: top; }
+  top: 0; }
 
 header a {
   text-decoration: none;
@@ -94,7 +94,7 @@ header a {
 
 .container {
   background-color: purple;
-  margin-top: 5em;
+  margin-top: 3ex;
   font-size: 500%;
   width: 50%;
   height: 20ex;
