@@ -229,6 +229,16 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
+.download-section .container div div p {
+  margin: 0 0 8px;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .download-section .container div div p {
+    margin: 0 0 10px;
+    font-size: 15px;
+  }
+}
 .download-section .container div div a img {
   margin: 15px 0;
 }
