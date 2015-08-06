@@ -1,8 +1,20 @@
 var gulp = require('gulp');
+var less = require('gulp-less');
+var path = require('path');
 
 gulp.task('do-something', function() {
   console.log(arguments);
   console.log('I did something!');
+});
+
+gulp.task('less', function () {
+  return gulp.src('./less/**/*.less')
+    .pipe(less(
+    //   {
+    //   paths: [ path.join(__dirname, 'less', 'includes') ]
+    // }
+    ))
+    .pipe(gulp.dest('css'));
 });
 
 gulp.task('sass', function(){
@@ -18,12 +30,12 @@ gulp.task('sass', function(){
 
 var browserSync = require('browser-sync').create();
 
-gulp.task('serve', [ 'sass' ], function(){
+gulp.task('serve', [ 'less' ], function(){
   browserSync.init({
     server: "./_site"
 
   });
-  gulp.watch("scss/*.scss", ['sass']);
+  gulp.watch("less/*.less", ['less']);
   gulp.watch("./_site/*.html").on('change', browserSync.reload);
   gulp.watch("js/**/*.js").on('change', browserSync.reload);
 });
@@ -47,8 +59,8 @@ gulp.task('clean', function(done){
 
 gulp.task('default', [ 'serve' ]);
 
-gulp.task('build', [ 'clean', 'sass' ], function(){
-  gulp.src(['src/*', '!src/scss'])
+gulp.task('build', [ 'clean', 'less' ], function(){
+  gulp.src(['src/*', '!src/less'])
   //gulp.from()
   .pipe(gulp.dest('dist/')); //gulp.into()
 });
